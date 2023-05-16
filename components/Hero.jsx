@@ -1,7 +1,7 @@
 import React from "react";
 import LeftColumn from "./LeftColumn";
 import RightColumn from "./RightColumn";
-// import Image from 'next/image'
+import Image from 'next/image'
 
 const Hero = () => {
 
@@ -10,8 +10,10 @@ const Hero = () => {
   return (
     <div className="relative">
       <div className="">
-        <img
+        <Image
           src="/BackGround.png"
+          width='1500'
+          height='100'
           alt="img"
           className="w-[100%] max-h-[804px] object-cover "
         />
